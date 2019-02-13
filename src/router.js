@@ -1,7 +1,8 @@
 import React,{Component} from "react";
  import {HashRouter as Router,Route,Link,Switch} from "react-router-dom"
  import App from './App'
- import IndexComponent from './pages/home/index/index.js'
+ import AsyncComponent from './components/async/AsyncComponent.js'
+ const IndexComponent=AsyncComponent(()=>import('./pages/home/index/index.js'))
  export default class RouterComponent extends Component{
      render(){
          return (
