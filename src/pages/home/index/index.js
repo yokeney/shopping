@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React,{Component} from "react";
-import Css from '../../../assets/css/home/index/index.css'
+import Css from '../home/index.css'
 export default class IndexComponent extends Component{
  constructor(){
      super();
@@ -10,7 +10,6 @@ export default class IndexComponent extends Component{
          return (
              <div class="app">
              首页
-             <div class={Css['header']}>header</div>
              </div>
          )
      }
