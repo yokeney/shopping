@@ -4,7 +4,6 @@ import {Switch,Route} from 'react-router-dom';
 import Css from '../home/index.css';
 import AsyncComponent from '../../../components/async/AsyncComponent.js'
  import config from '../../../assets/js/conf/config.js'
- console.log(config);
  const IndexComponent=AsyncComponent(()=>import('../index/index'))
  const CartComponent=AsyncComponent(()=>import('../cart/index'))
  const UserComponent=AsyncComponent(()=>import('../../user/index'))

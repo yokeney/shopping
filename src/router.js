@@ -15,7 +15,7 @@ import React,{Component} from "react";
                             <Route path={config.path+'home'}   component={HomeComponent}/>
                             <Redirect to={config.path+'home/index'}></Redirect>
                         </Switch>
-                     </React.Fragment >
+                     </React.Fragment>
                 </Router>
              < /React.Fragment >
          )

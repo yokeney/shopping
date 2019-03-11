@@ -8,7 +8,7 @@ export default class UserComponent extends Component{
      render(){
          return (
              <div class="app">
-             我等
+             我的
              </div>
          )
      }

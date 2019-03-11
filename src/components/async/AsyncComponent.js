@@ -17,7 +17,6 @@ export default function asyncComponent(importComponent) {
                 component: component
             });
         }
-
         render() {
             const C = this.state.component;
 
